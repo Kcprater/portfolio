@@ -1,0 +1,7 @@
+.jumbotron{
+    background: url('../assets/lights.jpeg') center;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    height: 60vh;
+}

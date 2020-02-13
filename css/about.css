@@ -1,0 +1,32 @@
+body #aboutMe {
+  background-color: black;
+  background-image: linear-gradient(black, silver, black);
+}
+
+body #contact {
+  background-color: black;
+  background-image: linear-gradient(black, silver, black);
+}
+
+body #projects {
+  background-color: gray;
+  background-image: linear-gradient(silver, black, silver);
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+.resumeLink {
+  text-align: center;
+}
+
+a {
+  color:white;
+  font-size: 20px;
+}
+
+a:hover {
+  color: red;
+}

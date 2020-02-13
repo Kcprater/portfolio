@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" ref='text/css' href="./css/main.css">
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">KP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#aboutMe">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+    <!--HEADER-->
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Kris Prater</h1></style>
+            <p class="lead">Web Developer</p>
+        </div>
+    </div>
+
+
+    <!--ABOUT ME-->
+
+    <section id='aboutMe'>
+        <h1 class style="text-align: center; color:white;">About Me</h1>
+        <div class="container">
+            <div class='row'>
+                <div class="col-4">
+                    <p class style='text-align: left; color:white;' >After a decade of working for the same company, in the warehouse industry, at levels varying from entry level to middle management I decided it was time for a change.  I left what I knew and embarked on a new journey in the world of computers. I am an avid football and race fan, and enjoy traveling with my family.</p>
+                </div>
+                <div class="col-4">
+                    <p> <img src="./assets/FamilyPicture.jpg"></p>
+                </div>
+                <div class= 'col-4';  style="color: white;">
+                    <ul>
+                        <li>Bachelor's Degree from Indiana University</li>
+                        <li>15 years of management experience</li>
+                        <li>20 years of customer service experience</li>
+                        <li>Proficient in Microsoft Office</li>
+                        <li>Learning Javascript, CSS, HTML</li>
+                    </ul>
+                    <div class ='resumeLink'>
+                    <a href="./assets/Kristopher Resume.pdf" download>Download My Resume!</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+
+    <!--PROJECTS-->
+    <section id='projects'>
+        <h1 class style="text-align: center;">Projects</h1>
+        <br>
+        <div class="container">
+            <div class='row'>
+                <div class="col-3">
+                    <a href='https://codepen.io/kcprater/pen/yLyrPdg'> 
+                        <img src="./assets/cssCreature.jpg"></a>
+                </div>
+                <div class="col-3">
+                    <a href='https://kcprater.github.io/StaticLayoutProject/'>
+                        <img src="./assets/staticThumbnail.jpg"></a>
+                </div>
+                <div class="col-3">
+                    <a href='https://repl.it/@kcprater/32-Guessing-Game'>
+                    <img src="./assets/rplThumbnail.jpg"></a>
+                </div>
+                <div class="col-3">
+                    <a href='https://kcprater.github.io/HarryPotterAPI/'>
+                    <img src="./assets/hatThumbnail.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/kristopherprater@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-light">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+            <div class='container'>
+                <div class='row' id='contactIcons'>
+                    <div class="col-1">
+                        <a href='https://www.linkedin.com/in/kristopher-prater-6402041a2/'> 
+                            <img src="./assets/linkedinLogo.jpg"></a>
+                    </div>
+                    <div class="col-1">
+                        <a href='https://codepen.io/kcprater'>
+                            <img src="./assets/codepenLogo.jpg"></a>
+                    </div>
+                    <div class="col-1">
+                        <a href='https://github.com/Kcprater'>
+                        <img src="./assets/githubLogo.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </section>
+
+    <!--FOOTER-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
